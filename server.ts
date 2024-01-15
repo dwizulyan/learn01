@@ -1,2 +1,6 @@
 const user: string = "Jeki";
-console.log(user);
+if (user === "jeki") {
+  console.log("Hey Jeki");
+} else {
+  console.log("Unknown user");
+}
